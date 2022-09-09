@@ -1,0 +1,265 @@
+.InfoSection-container {
+    width: 100%;
+    max-width: 1251px;
+
+    margin: 0 auto;
+
+    .inFo-section-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .right-side-container {
+            max-width: 500px;
+
+            .heading {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 58px;
+                color: var(--color-text);
+                margin-bottom: 21px;
+            }
+
+            .desc {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+                max-width: 400px;
+
+                color: #000000;
+                margin-bottom: 27px;
+            }
+
+            .button {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+                color: var(--color-text);
+                position: relative;
+
+                .btn-bottom-line {
+                    background: #111111;
+                    width: 1px;
+                    height: 120px;
+                    transform: rotate(90deg);
+                    -webkit-transform: rotate(90deg);
+                    -moz-transform: rotate(90deg);
+                    -ms-transform: rotate(90deg);
+                    -o-transform: rotate(90deg);
+                    position: absolute;
+                    top: -28px;
+                    left: 60px;
+                }
+
+            }
+
+
+        }
+
+
+    }
+
+    .inFo-section-wrapper-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 130px;
+
+        .left-side-container {
+            max-width: 500px;
+
+            .heading {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 58px;
+                color: var(--color-text);
+                margin-bottom: 21px;
+            }
+
+            .desc {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+                max-width: 400px;
+
+                color: #000000;
+                margin-bottom: 27px;
+            }
+
+            .button {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+                color: var(--color-text);
+                position: relative;
+
+                .btn-bottom-line {
+                    background: #111111;
+                    width: 1px;
+                    height: 120px;
+                    transform: rotate(90deg);
+                    -webkit-transform: rotate(90deg);
+                    -moz-transform: rotate(90deg);
+                    -ms-transform: rotate(90deg);
+                    -o-transform: rotate(90deg);
+                    position: absolute;
+                    top: -28px;
+                    left: 60px;
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
+.InFoCard-container {
+    margin-bottom: 120px;
+    margin-top: 130px;
+
+    .cards-wrapper {
+        width: 100%;
+        display: flex;
+        // flex-wrap: wrap;
+
+        .card-1 {
+            background: #F4F1EB;
+
+
+        }
+
+        .card-2 {
+            background: #F2F2F2;
+
+
+        }
+
+        // .card-3 {
+        //     background: #222222;
+        //     color: #FFFFFF;
+
+        // }
+
+        .card {
+            border-radius: 10px;
+            width: 33%;
+            padding: 20px;
+            margin-right: 24px;
+
+
+
+            .card-top {
+                padding-top: 25px;
+                padding-bottom: 100px;
+                display: flex;
+                // align-items: center;
+
+                span {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 26px;
+                    /* identical to box height, or 130% */
+
+
+                    color: #1A1A1A;
+                    margin-left: 12px;
+                }
+            }
+
+            .card-bottom {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                color: var(--color-text);
+                padding-bottom: 19px;
+
+
+            }
+
+            .card-button {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+                /* identical to box height, or 156% */
+
+
+                color: #000000;
+                margin-bottom: 25px;
+            }
+        }
+
+        .card-3 {
+            border-radius: 10px;
+            width: 33%;
+            padding: 20px;
+            margin-right: 24px;
+            background: #222222;
+
+
+            .card-top {
+                padding-top: 25px;
+                padding-bottom: 100px;
+                display: flex;
+                // align-items: center;
+
+                span {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 26px;
+                    /* identical to box height, or 130% */
+
+
+                    color: #E9E9E9;
+
+                    margin-left: 12px;
+                }
+            }
+
+            .card-bottom {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                color: #FFFFFF;
+                padding-bottom: 19px;
+
+
+            }
+
+            .card-button {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+                color: #FFFFFF;
+
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,47 @@
+.sectionFour-container {
+    background: #111111;
+
+    .sectionFour-wrapper {
+        width: 100%;
+        max-width: 1251px;
+        margin: 0 auto;
+
+        .cad-wrapper {
+            display: flex;
+            width: 100%;
+
+            .card {
+                width: 33%;
+                padding-top: 120px;
+                padding-bottom: 120px;
+                margin-right: 50px;
+
+                .card-heading {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 43px;
+                    /* or 133% */
+
+
+                    color: #FFFFFF;
+                    margin-bottom: 25px;
+
+                }
+
+                .card-desc {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    /* or 162% */
+
+
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

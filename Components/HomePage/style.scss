@@ -1,0 +1,106 @@
+.homePage-container {
+    max-width: 1251px;
+    width: 100%;
+    margin: 0 auto;
+    background: #F4F1EB;
+    border-radius: 20px;
+    margin-top: 20px;
+
+    .hompage-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        // margin-top: 127px;
+
+        .title {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 72px;
+            line-height: 86px;
+            /* or 120% */
+
+            text-align: center;
+            color: var(--color-text);
+            max-width: 880px;
+        }
+
+        .desc {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 29px;
+            /* identical to box height, or 136% */
+
+            text-align: center;
+            margin-top: 18px;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            background: #111111;
+            border-radius: 15px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            /* identical to box height, or 156% */
+
+            text-align: center;
+            letter-spacing: 1.3px;
+
+            color: #FFFFFF;
+            padding: 14px 24px;
+            cursor: pointer;
+
+        }
+
+        .our-use-cases-wrapper {
+            margin-top: 49px;
+
+            width: 100%;
+            max-width: 800px;
+
+            .title {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                color: var(--color-text);
+                text-align: center;
+            }
+
+            .cases-list {
+                margin-top: 25px;
+                display: flex;
+                justify-content: space-between;
+
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                /* identical to box height, or 130% */
+
+                text-align: center;
+                color: var(--color-text);
+
+            }
+        }
+    }
+}
+
+.home-bottom-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        margin-top: -153px;
+    }
+}

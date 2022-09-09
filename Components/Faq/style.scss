@@ -1,0 +1,50 @@
+.faq-container {
+    width: 100%;
+    max-width: 1251px;
+    margin: 0 auto;
+    background: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 70px;
+
+    .faq-heading {
+        .title {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 58px;
+            color: var(--color-text);
+            margin-bottom: 22px;
+        }
+
+        .desc {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #000000;
+            margin-bottom: 74px;
+        }
+    }
+
+    .faq-card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+
+        .card {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            color: var(--color-text);
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.OurCustomers-container {
+
+    padding-top: 123px;
+    padding-bottom: 123px;
+    width: 100%;
+    max-width: 1251px;
+
+    margin: 0 auto;
+
+    .title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        /* identical to box height, or 120% */
+
+        text-align: center;
+        color: var(--color-text);
+        margin-bottom: 41px;
+    }
+
+    .logo-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-content: center;
+        place-items: center;
+        grid-gap: 30px;
+    }
+}
