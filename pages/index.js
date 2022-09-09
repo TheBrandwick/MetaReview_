@@ -15,6 +15,7 @@ export default function Home() {
       <Section4 />
       <Faq />
       <CtaSection />
+      <Footer/>
     </div>
   )
 }
