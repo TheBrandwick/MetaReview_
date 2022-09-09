@@ -102,5 +102,10 @@
 
     img {
         margin-top: -153px;
+
+        @media (max-width:1024px) {
+            margin-top: -127px;
+
+        }
     }
 }

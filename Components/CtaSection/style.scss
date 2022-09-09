@@ -2,13 +2,93 @@
     width: 100%;
     max-width: 1251px;
     margin: 0 auto;
-    height: 100vh;
+    // padding-bottom: 20px;
 
     .CtaSection-wrapper {
         background-image: url("/assets/Cta/cta-bg.png");
+
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
+        // display: grid;
+        // grid-template-columns: 1fr 2fr;
+        display: flex;
+        align-items: center;
 
+        justify-content: center;
+        padding: 28px;
+
+        .left-side-container {
+
+            // width: 30%;
+            width: 250px;
+            margin: 0 auto;
+
+            img {}
+        }
+
+        .right-side-container {
+            width: 70%;
+
+            .heading {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 58px;
+                color: var(--color-text);
+                margin-bottom: 23px;
+            }
+
+            .desc {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+
+
+                color: #000000;
+                max-width: 600px;
+            }
+
+            .buttons-wrapper {
+                display: flex;
+                margin-top: 58px;
+
+                .contact-button {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: 1.3px;
+                    background: #111111;
+                    border-radius: 15px;
+                    color: #FFFFFF;
+                    padding: 13px 24px;
+                    margin-right: 26px;
+                }
+
+                .Pricing-button {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: 1.3px;
+                    background: transparent;
+                    border-radius: 15px;
+                    color: #111111;
+                    padding: 13px 24px;
+                    border: 1px solid #515151;
+                }
+            }
+        }
     }
 }
