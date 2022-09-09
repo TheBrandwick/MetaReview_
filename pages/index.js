@@ -4,6 +4,7 @@ import HomePage from "../Components/HomePage";
 import InfoSection from "../Components/InfoSection";
 import OurCustomers from "../Components/OurCustomers";
 import Section4 from "../Components/Section-4";
+import Footer from '../Components/Footer'
 
 
 export default function Home() {

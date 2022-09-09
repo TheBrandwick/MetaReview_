@@ -15,9 +15,7 @@ export default function Footer() {
                         <div className="item">Facebook</div>
                         <div className="item">LinkedIn</div>
                         <div className="item extra-margin">+ 1805 73 78 00</div>
-                        <div className="item">info@twilo.com</div>
-            
-            
+                        <div className="item">info@twilo.com</div>          
         </div>
     </div>
      <FooterItem heading={'Homepages'} items={['Main Home','About','Team Member','Partners','Services']}/>
