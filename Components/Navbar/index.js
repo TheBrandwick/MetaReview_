@@ -12,10 +12,10 @@ const Navbar = () => {
                     <li>
                         Home
                     </li>
-                    <li>Pages</li>
-                    <li>Portfolio</li>
+                 
+                    <li>How that works</li>
                     <li>Blog</li>
-                    <li>Shop</li>
+                   
                     <li>Contact</li>
                 </ul>
             </div>
