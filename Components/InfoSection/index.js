@@ -30,7 +30,7 @@ const InfoSection = () => {
 
                 </div>
             </div>
-            <InFoCard />
+            {/* <InFoCard /> */}
         </div>
     )
 }
