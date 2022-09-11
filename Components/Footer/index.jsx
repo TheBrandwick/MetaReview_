@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-wrapper">
         <div className="footer-item footer-item-1">
         <div className="heading">
-        <img src="/footer.svg" alt="" />
+        {/* <img src="/assets/Navbar/Ellipse 1.png" alt="" /> */}
         </div>
         <div className="body">
             

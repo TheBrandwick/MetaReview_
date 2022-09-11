@@ -9,14 +9,14 @@ const HomePage = () => {
                 <div className="hompage-wrapper">
                     <div className="title">First On-Chain Survey Platform that rewards user</div>
                     <div className="desc">Make your feedback forms more secure and distribute rewards directly to users</div>
-                    <div className="button">Lets try for Free</div>
+                <a href='https://app.metareview.vercel.app/' target="_blank"><div className="button">Get Started</div></a> 
 
                     <div className="our-use-cases-wrapper">
-                        <div className="title">Our Use Cases:</div>
+                        <div className="title"></div>
                         <div className="cases-list">
-                            <div className="">Company Feedback Forms</div>
+                            {/* <div className="">Company Feedback Forms</div>
                             <div className="">Products Reviews</div>
-                            <div className="">Freelance work</div>
+                            <div className="">Freelance work</div> */}
                         </div>
                     </div>
 
