@@ -20,6 +20,7 @@
 
         @media (max-width:568px) {
             flex-direction: column;
+            padding: 25px 8px;
         }
 
         .left-side-container {
@@ -62,6 +63,11 @@
                 @media (max-width:768px) {
                     font-size: 39px;
                     line-height: 46px;
+                }
+
+                @media (max-width:568px) {
+                    font-size: 37px;
+                    line-height: 38px;
                 }
             }
 
@@ -109,8 +115,15 @@
                     margin-right: 26px;
                     cursor: pointer;
 
-                    @media (max-width:768) {
+                    @media (max-width:768px) {
                         font-size: 14px;
+                    }
+
+                    @media (max-width:568px) {
+                        font-size: 15px;
+                        line-height: 25px;
+                        padding: 14px 23px;
+
                     }
                 }
 
@@ -130,8 +143,15 @@
                     padding: 13px 24px;
                     border: 1px solid #515151;
 
-                    @media (max-width:768) {
+                    @media (max-width:768px) {
                         font-size: 14px;
+                    }
+
+                    @media (max-width:568px) {
+                        font-size: 15px;
+                        line-height: 25px;
+                        padding: 14px 23px;
+
                     }
                 }
             }
