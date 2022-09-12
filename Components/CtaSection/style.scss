@@ -18,6 +18,10 @@
         justify-content: center;
         padding: 28px;
 
+        @media (max-width:568px) {
+            flex-direction: column;
+        }
+
         .left-side-container {
 
             // width: 30%;
@@ -25,10 +29,26 @@
             margin: 0 auto;
 
             img {}
+
+            @media (max-width:568px) {
+                width: 100%;
+                display: none;
+            }
         }
 
         .right-side-container {
             width: 70%;
+
+
+
+            @media (max-width:768px) {
+                width: 58%;
+            }
+
+            @media (max-width:568px) {
+                width: 100%;
+
+            }
 
             .heading {
                 font-family: 'Raleway';
@@ -38,6 +58,11 @@
                 line-height: 58px;
                 color: var(--color-text);
                 margin-bottom: 23px;
+
+                @media (max-width:768px) {
+                    font-size: 39px;
+                    line-height: 46px;
+                }
             }
 
             .desc {
@@ -51,11 +76,22 @@
 
                 color: #000000;
                 max-width: 600px;
+
+                @media (max-width:768px) {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
             }
 
             .buttons-wrapper {
                 display: flex;
                 margin-top: 58px;
+
+                @media (max-width:568px) {
+                    margin-top: 26px;
+
+
+                }
 
                 .contact-button {
                     font-family: 'Raleway';
@@ -71,6 +107,11 @@
                     color: #FFFFFF;
                     padding: 13px 24px;
                     margin-right: 26px;
+                    cursor: pointer;
+
+                    @media (max-width:768) {
+                        font-size: 14px;
+                    }
                 }
 
                 .Pricing-button {
@@ -80,6 +121,7 @@
                     font-size: 16px;
                     line-height: 25px;
                     /* identical to box height, or 156% */
+                    cursor: pointer;
 
                     letter-spacing: 1.3px;
                     background: transparent;
@@ -87,6 +129,10 @@
                     color: #111111;
                     padding: 13px 24px;
                     border: 1px solid #515151;
+
+                    @media (max-width:768) {
+                        font-size: 14px;
+                    }
                 }
             }
         }
