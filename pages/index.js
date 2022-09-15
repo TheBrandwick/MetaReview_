@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <div className="home" >
       <HomePage />
-      <OurCustomers />
+      {/* <OurCustomers /> */}
       <InfoSection />
-      <Section4 />
+      {/* <Section4 />
       <Faq />
       <CtaSection />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
